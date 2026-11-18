@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.nav {
+  background-color: #04AA6D;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #059862;
+}
+
+.box {
+  background-color: white;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.box.small {
+  max-width: 400px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #059862;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
